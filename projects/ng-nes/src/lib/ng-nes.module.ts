@@ -4,12 +4,14 @@ import { CommonModule } from '@angular/common';
 import { AvatarComponent } from './avatar/avatar.component';
 import { BalloonComponent } from './balloon/balloon.component';
 import { ButtonComponent } from './button/button.component';
+import { CheckboxComponent } from './checkbox/checkbox.component';
 
 @NgModule({
   declarations: [
     AvatarComponent,
     BalloonComponent,
-    ButtonComponent
+    ButtonComponent,
+    CheckboxComponent
   ],
   imports: [
     CommonModule
@@ -17,7 +19,8 @@ import { ButtonComponent } from './button/button.component';
   exports: [
     AvatarComponent,
     BalloonComponent,
-    ButtonComponent
+    ButtonComponent,
+    CheckboxComponent
   ]
 })
 export class NgNesModule {
