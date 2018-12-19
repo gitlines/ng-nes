@@ -1,0 +1,4 @@
+<div class="nes-container" [ngClass]="classList" [ngStyle]="props?.style">
+  <h2 *ngIf="props?.title" class="title" [innerHTML]="props?.title"></h2>
+  <ng-content></ng-content>
+</div>
