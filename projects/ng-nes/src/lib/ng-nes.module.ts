@@ -1,19 +1,23 @@
 import { NgModule } from '@angular/core';
-import { AvatarComponent } from './avatar/avatar.component';
 import { CommonModule } from '@angular/common';
+
+import { AvatarComponent } from './avatar/avatar.component';
 import { BalloonComponent } from './balloon/balloon.component';
+import { ButtonComponent } from './button/button.component';
 
 @NgModule({
   declarations: [
     AvatarComponent,
-    BalloonComponent
+    BalloonComponent,
+    ButtonComponent
   ],
   imports: [
     CommonModule
   ],
   exports: [
     AvatarComponent,
-    BalloonComponent
+    BalloonComponent,
+    ButtonComponent
   ]
 })
 export class NgNesModule {

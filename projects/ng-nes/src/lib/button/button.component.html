@@ -1,0 +1,7 @@
+<button class="nes-btn"
+        [ngClass]="classList"
+        [ngStyle]="props?.style"
+        (click)="onClick()"
+        (mouseenter)="onHover()">
+	<ng-content></ng-content>
+</button>

@@ -67,6 +67,7 @@ describe('BalloonComponent', () => {
       // When
       const result = testSubject.classList;
 
+      // Then
       expect(result).toEqual(expectedClassList);
     });
 
