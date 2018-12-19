@@ -6,6 +6,7 @@ import { BalloonComponent } from './balloon/balloon.component';
 import { ButtonComponent } from './button/button.component';
 import { CheckboxComponent } from './checkbox/checkbox.component';
 import { ContainerComponent } from './container/container.component';
+import { ControllerIconComponent } from './controller-icon/controller-icon.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { ContainerComponent } from './container/container.component';
     BalloonComponent,
     ButtonComponent,
     CheckboxComponent,
-    ContainerComponent
+    ContainerComponent,
+    ControllerIconComponent
   ],
   imports: [
     CommonModule
@@ -23,7 +25,8 @@ import { ContainerComponent } from './container/container.component';
     BalloonComponent,
     ButtonComponent,
     CheckboxComponent,
-    ContainerComponent
+    ContainerComponent,
+    ControllerIconComponent
   ]
 })
 export class NgNesModule {
