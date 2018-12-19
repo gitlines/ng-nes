@@ -9,7 +9,7 @@ describe('BalloonComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ BalloonComponent ]
+      declarations: [BalloonComponent]
     });
 
     fixture = TestBed.createComponent(BalloonComponent);
