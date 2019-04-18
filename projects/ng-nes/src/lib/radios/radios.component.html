@@ -1,0 +1,14 @@
+<label class="nes-radio-group" [ngStyle]="props.style">
+  <ng-template ngFor let-radio [ngForOf]="props.options">
+    <label [for]="radio.value">
+      <input type="radio"
+             class="nes-radio"
+             [name]="props.groupName"
+             [id]="radio.value"
+             [value]="radio.value"
+             (change)="onSelect()"
+             [(ngModel)]="currentSelected" />
+      <span>{{radio.label}}</span>
+    </label>
+  </ng-template>
+</label>

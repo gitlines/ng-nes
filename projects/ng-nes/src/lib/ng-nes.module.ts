@@ -10,6 +10,8 @@ import { ControllerIconComponent } from './controller-icon/controller-icon.compo
 import { IconComponent } from './icon/icon.component';
 import { ListComponent } from './list/list.component';
 import { ProgressComponent } from './progress/progress.component';
+import { RadiosComponent } from './radios/radios.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -21,10 +23,12 @@ import { ProgressComponent } from './progress/progress.component';
     ControllerIconComponent,
     IconComponent,
     ListComponent,
-    ProgressComponent
+    ProgressComponent,
+    RadiosComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    FormsModule
   ],
   exports: [
     AvatarComponent,
@@ -35,7 +39,8 @@ import { ProgressComponent } from './progress/progress.component';
     ControllerIconComponent,
     IconComponent,
     ListComponent,
-    ProgressComponent
+    ProgressComponent,
+    RadiosComponent
   ]
 })
 export class NgNesModule {

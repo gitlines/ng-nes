@@ -7,6 +7,6 @@ export const getSingleNativeElement = (fixture: ComponentFixture<any>, cssClass:
 
 export const getMultipleNativeElements = (fixture: ComponentFixture<any>, cssClass: string): HTMLElement[] => {
   const nativeElements = [];
-  fixture.debugElement.queryAll(By.css(cssClass)).map((element) => nativeElements.push(element));
+  fixture.debugElement.queryAll(By.css(cssClass)).map((element) => nativeElements.push(element.nativeElement));
   return nativeElements;
 };
