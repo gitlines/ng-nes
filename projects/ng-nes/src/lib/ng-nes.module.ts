@@ -9,6 +9,7 @@ import { ContainerComponent } from './container/container.component';
 import { ControllerIconComponent } from './controller-icon/controller-icon.component';
 import { IconComponent } from './icon/icon.component';
 import { ListComponent } from './list/list.component';
+import { ProgressComponent } from './progress/progress.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { ListComponent } from './list/list.component';
     ContainerComponent,
     ControllerIconComponent,
     IconComponent,
-    ListComponent
+    ListComponent,
+    ProgressComponent
   ],
   imports: [
     CommonModule
@@ -32,7 +34,8 @@ import { ListComponent } from './list/list.component';
     ContainerComponent,
     ControllerIconComponent,
     IconComponent,
-    ListComponent
+    ListComponent,
+    ProgressComponent
   ]
 })
 export class NgNesModule {
