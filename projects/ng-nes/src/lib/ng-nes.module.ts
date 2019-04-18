@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { FormsModule } from '@angular/forms';
 
 import { AvatarComponent } from './avatar/avatar.component';
 import { BalloonComponent } from './balloon/balloon.component';
@@ -11,7 +12,7 @@ import { IconComponent } from './icon/icon.component';
 import { ListComponent } from './list/list.component';
 import { ProgressComponent } from './progress/progress.component';
 import { RadiosComponent } from './radios/radios.component';
-import { FormsModule } from '@angular/forms';
+import { SpriteComponent } from './sprite/sprite.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { FormsModule } from '@angular/forms';
     IconComponent,
     ListComponent,
     ProgressComponent,
-    RadiosComponent
+    RadiosComponent,
+    SpriteComponent
   ],
   imports: [
     CommonModule,
@@ -40,7 +42,8 @@ import { FormsModule } from '@angular/forms';
     IconComponent,
     ListComponent,
     ProgressComponent,
-    RadiosComponent
+    RadiosComponent,
+    SpriteComponent
   ]
 })
 export class NgNesModule {
